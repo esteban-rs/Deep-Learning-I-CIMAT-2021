@@ -1,0 +1,71 @@
+Tópicos de Aprendizaje de Automático I 
+
+Mariano Rivera
+
+Temario
+  
+I Introducción a Aprendizaje de Automático  
+
+1.	Fundamentos de Optimización 
+a.	Introducción a la optimización
+b.	Optimalidad en problemas sin restricciones 
+c.	Optimalidad en Problemas con restricciones
+
+2.	Fundamentos de Aprendizaje Automático 
+a.	Análisis de componentes principales (PCA)
+b.	Mínimos cuadrados
+c.	Regularización: Ridge (L2), Lasso (L1) y Elastic Net (L2+L1)]
+d.	Regresión Logística
+  
+ II Introducción al Aprendizaje Profundo
+
+3.	Aprendizaje Profundo 
+a.	Revisión a la regresión logística y el perceptrón
+b.	Redes multicapa (Multilayer perceptron, MLP)
+c.	Retropropagación (Backpropagation)
+
+4.	Redes Profundas de Convolución (ConvNN)  
+a.	Capas de convolución, Pooling, Dropout, BatchNormalization
+b.	Aumentación de datos
+c.	Redes preentrenadas para problemas con base de datos pequeñas
+d.	Variaciones en arquitecturas de NN 
+
+5.	Visualización de activación en redes convolucionales
+a.	Mapas de saliencia
+b.	Mapas de activación
+
+6.	Redes Profundas Recurrentes  
+a.	Incrustación de datos (Embedding)  
+b.	Redes recurrentes profundas (RNNs)
+c.	Redes de memoria larga para términos cortos (LSTM)
+d.	Problema del gradiente evanescente 
+
+III Arquitecturas Modernas para el Aprendizaje Profundo
+
+7.	Avances en ConvNN   
+a.	Redes Residuales
+b.	Capas especiales: Concatenación, Convolución transpuesta, Lambda, Interpolación
+
+8.	Redes Modernas
+a.	Autoencodificador Variacional
+b.	UNet para segmentación de imágenes
+c.	Redes Generadoras Antagónicas (GANs)
+d.	Redes Generadoras Antagónicas Convolucionales
+
+9.	Modelos de Atención
+a.	Transformación Secuencia a Secuencia (Seq2Seq)
+b.	Transformers
+c.	Transformers Visuales
+
+Lenguaje de Programación:
+Python 3.6+  
+Librerías: numpy, scipy, matplotlib, scikit-learn, scikit-image, pandas, sympy, Tensorflow 2+ 
+  
+Se recomienda usar Colab o la distribución Anaconda con notebooks Jupyter y acceso a servidor con GPU para experimentos con redes profundas.  
+  
+Bibliografía
+1.	Trevor Hastie, Robert Tibshirani and Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction; Springer. 2 Ed. (2013). https://web.stanford.edu/~hastie/Papers/ESLII.pdf 
+2.	Christopher Bishop, Pattern Recognition and Machine Learning; Springer, (2016). https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/
+3.	Ian Goodfellow, Yoshua Bengio and Aaron Courville; Deep Learning MIT Press. (2016) http://www.deeplearningbook.org
+4.	Francois Chollet; Deep Learning with Python, Manning Pubs. Packt Publishing Ltd, (2018)
+5.	Mariano Rivera, Tópicos de Aprendizaje Automático: Notas de Clase, disponible electrónicamente, (2018). http://personal.cimat.mx:8181/~mrivera/cursos/temas_aprendizaje.html
